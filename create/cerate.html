@@ -13,6 +13,27 @@
         .nav-link{
             color: black;
         }
+        .bordered1{
+            border: 1px solid lightgray;
+        }
+        .active{
+            color: #F46A06;
+        }
+        .bg-btn-grp{
+            background-color: #F1E8D7;
+        }
+        .rounded1{
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+        }
+        .round{
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+        .active2{
+            background-color: #F46A06;
+        }
+        
     </style>
 </head>
 
@@ -59,20 +80,18 @@
     <!-- home-page -->
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col p-5">
-                <h1 class="fw-bold col-8">Online Hospitality facility finder system
+            <div class="col-10 col-sm-10 col-md-10 col-lg-5 col-xl-6">
+                <h1 class="fw-bold col-8 p-3">Online Hospitality facility finder system
                     a right place.</h1>
-
                 <p class="col-8">In case you want to access the near by hospitality
                     facilities services this is the right place for you.</p>
                 <h4 class="fw-bolder">want nearby facilities on the map? click below</h4>
                 <a href="#!" class="btn bg fw-bold text-light">view on map</a>
-
             </div>
 
 
-            <div class="col">
-                <img src="./images/Screenshot_2024-05-20_145443-removebg-preview (2).png" alt="">
+            <div class="col-10 col-sm-10 col-md-10 col-lg-6 col-xl-6">
+                <img src="./images/Screenshot_2024-05-20_145443-removebg-preview (2).png" class="w-100" alt="">
             </div>
         </div>
         <hr>
@@ -95,19 +114,101 @@
     <!-- Nearest facilities list -->
 
     <!-- huge card  -->
-    <div class="container">
+    <div class="container  bordered1">
         <div class="btn-grp">
-            <div class="row">
-                <nav class="nav">
-                    <a class="nav-link active" aria-current="page" href="#">All</a>
-                    <a class="nav-link" href="#">Hotels</a>
-                    <a class="nav-link" href="#">Restaurants</a>
-                    <a class="nav-link" href="#">Coffee shops</a>
+            <div class="row justify-content-evently ">
+                <nav class="nav p-5 py-3 bg-btn-grp">
+                    
+                        <div class="col">
+                            <a class="nav-link  active fw-bold" aria-current="page" href="#">All</a>
+                        </div>
+                        <div class="col">
+                            <a class="nav-link fw-bold" href="#">Hotels</a>
+                        </div>
+                        <div class="col">
+                            <a class="nav-link fw-bold" href="#">Restaurants</a>
+                        </div>
+                        <div class="col">
+                            <a class="nav-link fw-bold" href="#">Coffee shops</a>
+                        </div>
                   </nav>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-10 col-sm-10 col-md-6 mt-4 col-lg-4">
+                <div class="card border-light  bg-btn-grp round rounded1 shadow-lg">
+                    <img src="./images/galaxy-hotel 2img.png" class="card-img rounded1" alt="">
+                    <div class="card-body">
+                        <button class="btn bg-white w-100 p-1 shadow-lg rounded-pill fw-bold fs-3">Galaxy Hotel</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-10 col-sm-10 col-md-6 mt-4 col-lg-4">
+                <div class="card border-light rounded1 round bg-btn-grp shadow-lg ">
+                    <img src="./images/bwok-restaurants 1.png" class="card-img rounded1" alt="">
+                    <div class="card-body">
+                        <button class="btn bg-white w-100 p-1 shadow-lg rounded-pill fw-bold fs-3">BWOK RESTAURANT</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-10 col-sm-10 col-md-6 mt-4 col-lg-4">
+                <div class="card border-light rounded1 round bg-btn-grp shadow-lg ">
+                    <img src="./images/hotel-milles-collines 1.png" class="card-img rounded1" alt="">
+                    <div class="card-body">
+                        <button class="btn bg-white w-100 p-1 shadow-lg rounded-pill fw-bold fs-3">Mille colline hotel</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-10 col-sm-10 col-md-6 mt-4 col-lg-4">
+                <div class="card border-light  bg-btn-grp round rounded1 shadow-lg">
+                    <img src="./images/indabo-caffee 1.png" class="card-img rounded1" alt="">
+                    <div class="card-body">
+                        <button class="btn bg-white w-100 p-1 shadow-lg rounded-pill fw-bold fs-3">Indabo cafe</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-10 col-sm-10 col-md-6 mt-4 col-lg-4">
+                <div class="card border-light rounded1 round bg-btn-grp shadow-lg ">
+                    <img src="./images/soy-asian-restaurant 1.png" class="card-img rounded1" alt="">
+                    <div class="card-body">
+                        <button class="btn bg-white w-100 p-1 shadow-lg rounded-pill fw-bold fs-3">Soy asian restaurant</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-10 col-sm-10 col-md-6 mt-4 col-lg-4">
+                <div class="card border-light rounded1 round bg-btn-grp shadow-lg ">
+                    <img src="./images/the-hut-restaurant 1.png" class="card-img rounded1" alt="">
+                    <div class="card-body">
+                        <button class="btn bg-white w-100 p-1 shadow-lg rounded-pill fw-bold fs-3">The hut cafe</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <!-- /huge card  -->
+    <!-- footer -->
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col col-5 text-center">
+                <h1 class="active">About HFfinder</h1>
+            </div>
+        </div>
+        <div class="row mt-4 justify-content-center">
+            <div class="col col-8">
+                <h5>
+                    This is the system that links the tourists and hospitality facilities owners. this is done in such way that people can view the nearby their location Hospitality facilitites and be able to access their services aswell as pay on the system.
+                </h5>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <h5 class="text-center">Copyright@ 2022 Design by Zebo Pulatova</h5>
+    <!-- /footer -->
     <script src="../bootstrap/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
 </body>
 
