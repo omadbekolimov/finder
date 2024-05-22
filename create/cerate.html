@@ -117,82 +117,87 @@
     <div class="container  bordered1">
         <div class="btn-grp">
             <div class="row justify-content-evently ">
-                <nav class="nav p-5 py-3 bg-btn-grp">
-                    
-                        <div class="col">
-                            <a class="nav-link  active fw-bold" aria-current="page" href="#">All</a>
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">All</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Hotels</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Restaurants</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Coffee shops</button>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="row justify-content-center">
+                        <div class="col-10 col-sm-10 col-md-6 mt-4 col-lg-4">
+                            <div class="card border-light  bg-btn-grp round rounded1 shadow-lg">
+                                <img src="./images/galaxy-hotel 2img.png" class="card-img rounded1" alt="">
+                                <div class="card-body">
+                                    <button class="btn bg-white w-100 p-1 shadow-lg rounded-pill fw-bold fs-3">Galaxy Hotel</button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col">
-                            <a class="nav-link fw-bold" href="#">Hotels</a>
+            
+                        <div class="col-10 col-sm-10 col-md-6 mt-4 col-lg-4">
+                            <div class="card border-light rounded1 round bg-btn-grp shadow-lg ">
+                                <img src="./images/bwok-restaurants 1.png" class="card-img rounded1" alt="">
+                                <div class="card-body">
+                                    <button class="btn bg-white w-100 p-1 shadow-lg rounded-pill fw-bold fs-3">BWOK RESTAURANT</button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col">
-                            <a class="nav-link fw-bold" href="#">Restaurants</a>
+            
+                        <div class="col-10 col-sm-10 col-md-6 mt-4 col-lg-4">
+                            <div class="card border-light rounded1 round bg-btn-grp shadow-lg ">
+                                <img src="./images/hotel-milles-collines 1.png" class="card-img rounded1" alt="">
+                                <div class="card-body">
+                                    <button class="btn bg-white w-100 p-1 shadow-lg rounded-pill fw-bold fs-3">Mille colline hotel</button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col">
-                            <a class="nav-link fw-bold" href="#">Coffee shops</a>
+            
+                        <div class="col-10 col-sm-10 col-md-6 mt-4 col-lg-4">
+                            <div class="card border-light  bg-btn-grp round rounded1 shadow-lg">
+                                <img src="./images/indabo-caffee 1.png" class="card-img rounded1" alt="">
+                                <div class="card-body">
+                                    <button class="btn bg-white w-100 p-1 shadow-lg rounded-pill fw-bold fs-3">Indabo cafe</button>
+                                </div>
+                            </div>
                         </div>
-                  </nav>
+            
+                        <div class="col-10 col-sm-10 col-md-6 mt-4 col-lg-4">
+                            <div class="card border-light rounded1 round bg-btn-grp shadow-lg ">
+                                <img src="./images/soy-asian-restaurant 1.png" class="card-img rounded1" alt="">
+                                <div class="card-body">
+                                    <button class="btn bg-white w-100 p-1 shadow-lg rounded-pill fw-bold fs-3">Soy asian restaurant</button>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="col-10 col-sm-10 col-md-6 mt-4 col-lg-4">
+                            <div class="card border-light rounded1 round bg-btn-grp shadow-lg ">
+                                <img src="./images/the-hut-restaurant 1.png" class="card-img rounded1" alt="">
+                                <div class="card-body">
+                                    <button class="btn bg-white w-100 p-1 shadow-lg rounded-pill fw-bold fs-3">The hut cafe</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div></div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                  </div>
             </div>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-10 col-sm-10 col-md-6 mt-4 col-lg-4">
-                <div class="card border-light  bg-btn-grp round rounded1 shadow-lg">
-                    <img src="./images/galaxy-hotel 2img.png" class="card-img rounded1" alt="">
-                    <div class="card-body">
-                        <button class="btn bg-white w-100 p-1 shadow-lg rounded-pill fw-bold fs-3">Galaxy Hotel</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-10 col-sm-10 col-md-6 mt-4 col-lg-4">
-                <div class="card border-light rounded1 round bg-btn-grp shadow-lg ">
-                    <img src="./images/bwok-restaurants 1.png" class="card-img rounded1" alt="">
-                    <div class="card-body">
-                        <button class="btn bg-white w-100 p-1 shadow-lg rounded-pill fw-bold fs-3">BWOK RESTAURANT</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-10 col-sm-10 col-md-6 mt-4 col-lg-4">
-                <div class="card border-light rounded1 round bg-btn-grp shadow-lg ">
-                    <img src="./images/hotel-milles-collines 1.png" class="card-img rounded1" alt="">
-                    <div class="card-body">
-                        <button class="btn bg-white w-100 p-1 shadow-lg rounded-pill fw-bold fs-3">Mille colline hotel</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-10 col-sm-10 col-md-6 mt-4 col-lg-4">
-                <div class="card border-light  bg-btn-grp round rounded1 shadow-lg">
-                    <img src="./images/indabo-caffee 1.png" class="card-img rounded1" alt="">
-                    <div class="card-body">
-                        <button class="btn bg-white w-100 p-1 shadow-lg rounded-pill fw-bold fs-3">Indabo cafe</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-10 col-sm-10 col-md-6 mt-4 col-lg-4">
-                <div class="card border-light rounded1 round bg-btn-grp shadow-lg ">
-                    <img src="./images/soy-asian-restaurant 1.png" class="card-img rounded1" alt="">
-                    <div class="card-body">
-                        <button class="btn bg-white w-100 p-1 shadow-lg rounded-pill fw-bold fs-3">Soy asian restaurant</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-10 col-sm-10 col-md-6 mt-4 col-lg-4">
-                <div class="card border-light rounded1 round bg-btn-grp shadow-lg ">
-                    <img src="./images/the-hut-restaurant 1.png" class="card-img rounded1" alt="">
-                    <div class="card-body">
-                        <button class="btn bg-white w-100 p-1 shadow-lg rounded-pill fw-bold fs-3">The hut cafe</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
     </div>
     <!-- /huge card  -->
     <!-- footer -->
-    <div class="container mb-5">
+    <div class="container mt-4 mb-5">
         <div class="row">
             <div class="col col-5 text-center">
                 <h1 class="active">About HFfinder</h1>
